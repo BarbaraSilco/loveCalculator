@@ -124,8 +124,9 @@ input[type="reset"] {
 
 .container-btn {
     display: flex;
+    gap: 15px;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content:center;
     padding-top: 24px;
     padding-bottom: 15px;
 }
