@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    outline: none;}
+
+body {
+    background-color: #ffe7e7;
+    opacity: 1;
+    background-image:  linear-gradient(#ffd5dd 0.7000000000000001px, transparent 0.7000000000000001px), linear-gradient(to right, #ffd5dd 0.7000000000000001px, #ffe7e7 0.7000000000000001px);
+    background-size: 14px 14px;
+	height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+    
+    
+.conateiner{
+        width: 90%;
+        max-width: 35em;
+        position: absolute;
+        border-radius: 0.8em;
+        background: #5c1c31;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        padding-left: 9px;
+    padding-right: 9px;
+    }
+
+.header {
+    display: flex;
+    align-items: center;   
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    color: #ffd1d0;
+    font-size: 15px;
+    }
+
+.header span{
+    color:#ffffff;
+    font-family: 'Lilita One', sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+    
+.header img{
+    height: 140px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.header p{
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: white;
+}
+ .main {
+    width: fit-content;
+    width: -moz-fit-content;
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    color: white;
+    
+    
+ }
+
+
+
+ label,
+ input,
+ button {
+     display: block;
+     max-width: 100%;}
+
+input {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+label {
+    padding-bottom: 3px;
+    font-size: 15px;
+}
+
+.result {
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    width: 73%;
+    color: white;
+
+}
+
+#result-percentage{
+font-weight: 800;
+font-size: 50px;
+color: #c86274;
+}
+
+button,
+input[type="reset"] {
+    height: 35px;
+    border-radius: 10px;
+    background: #c86274;
+    color: #fff;
+    border: none;
+    width: 160px;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+    
+    
+}
+
+.container-btn {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 24px;
+    padding-bottom: 15px;
+}
+
+
+.footer{
+    height: 10px;
+}
+
+
+

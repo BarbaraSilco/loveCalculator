@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+<link rel="icon" href="./hearts.png">
+</head>
+
+<body>
+    
+
+
+<div class="conateiner">
+
+    <header class="header">
+        <img src="./love-message.png">
+        <h1><span>Love </span><br>calculator</h1>
+        <p>Enter your name and your crush's name to <br>check out  the chances of your relationship success!</p>
+    </header>
+    
+    <div class="main">
+   
+        <label for="your-name">Your name: </label>
+        <input type="text" id="your-name" name="your-name">
+       
+        <label for="crush-name">Crush's name: </label>
+        <input type="text" id="crush-name" name="crush-name">
+       
+    </div>
+
+        <div class="container-btn">
+        <button  id="calculate" >Calculate</button>
+        <input type="reset" value="TRY AGAIN" onclick="clearText()">
+    </div>
+       
+        
+
+    <div class="result">
+        <h3 id="result-message"></h3>
+        <p id="result-percentage"></p>
+        <h3 id="result-message2"></h3>
+    </div>
+
+    <div class="footer">
+    
+    </div>
+
+    
+</div>
+<script src="script.js"></script>
+</body>
+</html>
